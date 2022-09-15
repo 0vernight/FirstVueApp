@@ -25,6 +25,20 @@ npm run e2e
 
 # run all tests
 npm test
+
+
+#added after 20220828
+#axios
+npm run axios
+
+npm run init
+
+npm run console
+
+npm run json
+
+
+
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

@@ -1,7 +1,7 @@
 <template>
-  <div class="hello">
+  <div class="HelloWorld">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <h2>Essential Links in helloworld </h2>
     <ul>
       <li>
         <a
@@ -82,13 +82,12 @@
     </ul>
   </div>
 </template>
-
 <script>
 export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: '这个是默认的helloworld 模板页!'
     }
   }
 }

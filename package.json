@@ -7,18 +7,26 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
+    "server": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "axios": "cnpm i axios --save-dev",
+    "init": "npm init",
+    "console": "cnpm install vconsole",
+    "json": "cnpm install x2js"
   },
   "dependencies": {
+    "vconsole": "^3.14.6",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "x2js": "^3.4.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
+    "axios": "^0.27.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^8.2.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",

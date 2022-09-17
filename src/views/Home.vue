@@ -85,7 +85,9 @@ export default {
   methods: {
     see () {
       var self = this
-      alert('see hanshu jinlaile')
+      // var xmldata = this.$x2js.xml2js(this.data)
+      // var xmldata = this.$x2js.js2xml(this.data)
+      // alert('see hanshu jinlaile=' + xmldata)
       self.audio.play()
       console.log(self.media.action.play())
     }

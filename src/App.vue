@@ -6,6 +6,7 @@
       <router-link to="/HelloWorld">HelloWorld</router-link>
       <router-link to="/home">Home</router-link>
       <router-link to="/about">About</router-link>
+      <router-link to="/im">Im</router-link>
     </div>
     <router-view/>
   </div>

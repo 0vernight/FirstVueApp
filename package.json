@@ -16,7 +16,8 @@
     "axios": "cnpm i axios --save-dev",
     "init": "npm init",
     "console": "cnpm install vconsole",
-    "json": "cnpm install x2js"
+    "json": "cnpm install x2js",
+    "jquery": "npm install jquery --save"
   },
   "dependencies": {
     "vconsole": "^3.14.6",
